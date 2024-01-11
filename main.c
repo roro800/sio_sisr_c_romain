@@ -1,7 +1,12 @@
 #include <stdio.h>
 
+void salutation()
+{
+ printf("hello\n");
+}
+
 int main()
 {
-printf("Hello word\n");
+ salutation();
 return 0;
 }
